@@ -1,0 +1,14 @@
+OASISFormat: 0.3
+Name:        bigarray
+Version:     1.0
+Synopsis:    Bigarray without a UNIX dependency, suitable for Xen
+Authors:     Anil Madhavapeddy
+License:     ISC
+Plugins:     META (0.3)
+BuildTools:  ocamlbuild
+
+Library xenbigarray
+  Path:       lib/
+  BuildTools: ocamlbuild
+  Modules:    Bigarray
+  Findlibname: bigarray

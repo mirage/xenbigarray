@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: 6506f6eb2316897e02a18be076a93207)
+version = "1.0"
+description = "Cut-down Bigarray without UNIX dependency"
+archive(byte) = "xenbigarray.cma"
+archive(byte, plugin) = "xenbigarray.cma"
+archive(native) = "xenbigarray.cmxa"
+archive(native, plugin) = "xenbigarray.cmxs"
+exists_if = "xenbigarray.cma"
+# OASIS_STOP
+
